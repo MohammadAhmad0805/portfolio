@@ -1,0 +1,1899 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* global css */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header{
+    background-color: #f9d7fe;
+} */
+.button {
+    border-radius: 4px;
+    background-color: #A53DFF;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    display: inline;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+li {
+    list-style: none;
+}
+
+
+/* navbar css */
+
+nav {
+    width: 100%;
+    padding: 1% 13%;
+    background-color: rgb(170, 229, 245);
+    font-family: "Work Sans", sans-serif;
+
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px 20px;
+}
+
+.left-side-menu {
+    width: 13%;
+}
+
+.left-side-menu .logo {
+    width: 100%;
+}
+
+.right-side-menu {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1%;
+}
+
+/* hero section css */
+
+.hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 13%;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+.hero .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: flex-start;
+}
+
+.hero h2 {
+    font-size: 70px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.experience {
+    display: flex;
+    gap: 0.1vw;
+}
+
+.box {
+    background: #edddfa;
+    padding: 25px 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border-radius: 4px;
+}
+.box h3{
+    font-size: 20px;
+}
+.box p{
+    font-size: 15px;
+}
+
+.hero .right {
+    width: 35%;
+}
+
+.hero .right .hero_img {
+    width: 100%;
+}
+
+
+/* about section css */
+.about {
+    display: flex;
+    gap: 10vw;
+    padding: 5% 18%;
+    justify-content: center;
+    font-family: "Work Sans", sans-serif;
+
+
+}
+
+.about-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-left img {
+    width: 100%;
+    z-index: 1;
+}
+
+.about-left .social-links {
+    width: 70%;
+    padding: 5px 10px;
+    background: rgb(254, 253, 253);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: -30px;
+    z-index: 2;
+    position: relative;
+}
+
+.about-left .social-links a img {
+    width: 130%;
+}
+
+.about-right {
+    padding: 0% 2%;
+    width: 70%;
+
+}
+
+.about-right h3 {
+    font-size: 35px;
+    width: 70%;
+
+}
+
+.about-right p {
+    font-size: 15px;
+    padding-top: 25px;
+    width: 90%;
+}
+
+/* workprocess section css */
+.workprocess {
+    padding: 13%;
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    gap: 25vw;
+}
+
+.left-work {
+    width: 40%;
+}
+
+.left-work h3 {
+    width: 100%;
+    font-size: 30px;
+}
+
+.left-work p {
+    font-size: 15px;
+    width: 200%;
+}
+
+
+.right-work h4 {
+    font-size: 20px;
+}
+
+.right-work p {
+    width: 75%;
+}
+
+.top {
+    display: flex;
+    gap: 8px;
+}
+
+.bottom {
+    display: flex;
+    gap: 8px;
+}
+
+.research {
+    background-color: rgb(243, 238, 238);
+    border-radius: 15px;
+    width: 60%;
+    padding: 25px;
+}
+/* portfolio and image section  css */
+.portfolio {
+    font-family: "Work Sans", sans-serif;
+}
+
+.heading {
+    display: block;
+    width: 27%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.heading h2 {
+    font-size: 40px
+}
+
+.heading p {
+    font-size: large;
+    color: #A5ACB5;
+}
+
+.image-top {
+    display: flex;
+    margin: 100px;
+    gap: 6vw;
+    justify-content: space-evenly;
+}
+
+.image-bottom {
+    display: flex;
+    margin: 100px;
+    gap: 6vw;
+    justify-content: space-evenly;
+}
+
+.image-1 {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 22px;
+    background-color: white;
+    box-shadow: 0px 2px rgb(233, 219, 219);
+}
+
+.image-1 img {
+    width: 100%;
+}
+
+.image-1 p,
+h4,
+p {
+    padding: 5px;
+}
+
+.arrow-button {
+    display: flex;
+    border: #A53DFF solid;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 6px;
+    gap: 8px;
+
+}
+
+.arrow-button img {
+    width: 30px;
+}
+
+.project-button {
+    text-align: center;
+}
+
+/* project section css */
+.project {
+    padding: 5%;
+    background: #132238;
+    text-align: center;
+}
+
+.project h1 {
+    font-size: 40px;
+    width: 35%;
+    margin: auto;
+    display: block;
+    color: #FFFFFF;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.project p {
+    width: 33%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: 17px;
+    padding: 20px;
+    color: #A5ACB5;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.project .arrow-butto {
+    width: 15%;
+    font-size: 17px;
+    background-color: #A53DFF;
+    color: white;
+}
+
+.arrow-butto {
+    display: flex;
+    border: #A53DFF solid;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 6px;
+    gap: 8px;
+    margin: auto;
+    width: 10%;
+}
+
+/* blog section css */
+.blog {
+    font-family: "Work Sans", sans-serif;
+}
+
+.heading-2 {
+    padding: 100px;
+}
+
+.heading-2 h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Work Sans";
+}
+
+.heading-2 p {
+    font-size: 17px;
+    color: #A5ACB5;
+    font-family: "Work Sans", sans-serif;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+
+/* image-2 section css */
+.image-2 {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Work Sans", sans-serif;
+}
+
+.image1 img {
+    width: 100%;
+}
+
+.image1 {
+    flex-direction: column;
+}
+
+.image1 p {
+    color: #A5ACB5;
+}
+
+.image1 h4 {
+    width: 60%;
+}
+
+/* .experience-2 section css */
+.experience-2 {
+    display: flex;
+    font-family: "Work Sans", sans-serif;
+}
+
+.left-experience {
+    font-family: "Work Sans", sans-serif;
+    padding: 130px 150px;
+    width: 50%;
+}
+
+.left-experience h2 {
+    font-size: 35px;
+}
+
+.left-experience p {
+    color: #A5ACB5;
+}
+
+.right-experience {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.right-side1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 2rem 3rem;
+    background-color: #e3e7ea;
+    border-radius: 4px;
+}
+
+.right-side1:nth-child(1) {
+    border-left: 4px solid #A53DFF;
+}
+
+/* .client section css */
+.client .heading {
+    font-family: "Work Sans", sans-serif;
+    padding: 150px;
+    width: 60%;
+}
+
+.logos {
+    display: flex;
+    margin-top: -150px;
+    padding: 0% 13%;
+    justify-content: space-between;
+}
+
+.para {
+    width: 50%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: -80px;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* letproject section css */
+.letproject {
+    display: flex;
+    padding: 200px 350px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.left-letproject {
+    width: 100%;
+    font-family: "Work Sans", sans-serif;
+}
+
+.left-letproject p {
+    color: #A5ACB5;
+    width: 80%;
+}
+
+.image-address {
+    display: flex;
+    padding: 20px;
+    gap: 5vw;
+}
+.image-address img {
+    width: 130%;
+}
+.image-address p,h6 {
+    width: 100%;
+    font-size: 20px;
+}
+
+.links {
+    padding: 20px;
+}
+
+.right-letproject {
+    padding: 10px 10px;
+    font-family: "Work Sans", sans-serif;
+    color: #898d94;
+    gap: 4vw;
+}
+
+.right-letproject p {
+    padding: 20px;
+    width: 100%;
+}
+
+.input {
+    padding: 8px;
+}
+
+.right-letproject input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: #bdbfc3 2px solid;
+}
+
+.subject {
+    display: flex;
+}
+
+.vector-button {
+    display: flex;
+    border: #A53DFF solid;
+    align-items: center;
+    width: 25%;
+    padding: 6px 14px;
+    border-radius: 6px;
+    gap: 8px;
+    background-color: #A53DFF;
+}
+
+.vector-button img {
+    width: 15%;
+}
+
+.vector-button a {
+    color: white;
+}
+
+/* bottom-navbar section css */
+
+.bottom-navbar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 350px;
+    gap: 15vw;
+    background-color: #132238;
+    justify-content: space-between;
+}
+
+.right-navbar {
+    display: flex;
+    gap: 1vw;
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;
+    color: white;
+}
+
+/* website respnsive css code */
+
+@media(max-width:1368px) {
+
+    /* navbar css 1368px*/
+
+nav {
+    padding: 1% 6.5%;
+}
+
+ul {
+    font-size: 14px;
+}
+
+/* hero section css 1368px*/
+.hero {
+    padding: 10% 8%;
+}
+
+.hero h2 {
+    font-size: 55px;
+}
+
+.experience {
+    width: 100%;
+    gap: 1px;
+}
+
+.experience .box {
+    padding: 15px 10px;
+    width: 100%;
+}
+
+.experience .box p {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.experience .box h3 {
+    font-size: 17px;
+}
+/* about section css 1368px */
+.about {
+    display: flex;
+    gap: 10vw;
+    padding: 5% 18%;
+    justify-content: center;
+    font-family: "Work Sans", sans-serif;
+
+
+}
+
+.about-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-left img {
+    width: 100%;
+    z-index: 1;
+}
+
+.about-left .social-links {
+    width: 60%;
+    padding: 5px 10px;
+    background: rgb(254, 253, 253);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: -30px;
+    z-index: 2;
+    position: relative;
+}
+
+.about-left .social-links a img {
+    width: 130%;
+}
+
+.about-right {
+    padding: 10% 2%;
+    width: 100%;
+
+}
+
+.about-right h3 {
+    font-size: 20px;
+    width: 100%;
+
+}
+
+.about-right p {
+    font-size: 10px;
+    padding-top: 25px;
+    width: 100%;
+}
+.about-right .button{
+    font-size: 10px;
+}
+/* workprocess section css 1368px */
+.workprocess {
+    padding: 13%;
+    display: flex;
+    gap: 15vw;
+}
+
+.left-work {
+    width: 100%;
+}
+
+.left-work h3 {
+    font-size: 26px;
+}
+
+.left-work p {
+    font-size: 13px;
+    width: 100%;
+}
+
+.right-work{
+    width: 150%;
+}
+.right-work h4 {
+    font-size: 20px;
+}
+
+.right-work p {
+    width: 100%;
+    font-size: 10px;
+}
+
+.top {
+    display: flex;
+    gap: 8px;
+}
+
+.bottom {
+    display: flex;
+    gap: 8px;
+}
+
+.research {
+    background-color: rgb(243, 238, 238);
+    border-radius: 15px;
+    width: 60%;
+    padding: 25px;
+}
+.research img{
+    width: 30%;
+}
+/* portfolio and image section  css 1368px */
+.heading {
+    display: block;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.heading h2 {
+    font-size: 40px
+}
+
+.heading p {
+    font-size: large;
+    text-shadow: -0px -0px;
+    color: #A5ACB5;
+    
+}
+
+.image-top {
+    display: flex;
+    margin: 0px;
+    gap: 6vw;
+    justify-content: space-evenly;
+}
+
+.image-bottom {
+    display: flex;
+    margin: 0px;
+    gap: 6vw;
+    justify-content: space-evenly;
+}
+
+.image-1 {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 22px;
+    background-color: white;
+    box-shadow: 0px 2px rgb(233, 219, 219);
+}
+
+.image-1 img {
+    width: 100%;
+}
+
+.image-1 p,
+h4,
+p {
+    padding: 5px;
+}
+.image-1 h4{
+    font-size: 15px;
+}
+.image-1 p{
+    font-size: 10px;
+}
+
+.arrow-button {
+    display: flex;
+    border: #A53DFF solid;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 6px;
+    gap: 8px;
+
+}
+
+.arrow-button img {
+    width: 20px;
+}
+
+.project-button {
+    padding: 10%;
+}
+/* project section css 1368px */
+.project {
+    background: #132238;
+}
+
+.project h1 {
+    font-size: 30px;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    display: block;
+    color: #FFFFFF;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.project p {
+    width: 43%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: 15px;
+    padding: 20px;
+    color: #A5ACB5;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.project .arrow-butto {
+    width: 20%;
+    font-size: 15px;
+    background-color: #A53DFF;
+    color: white;
+}
+
+.arrow-butto {
+    display: flex;
+    border: #A53DFF solid;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 6px;
+    gap: 8px;
+    margin: auto;
+    width: 10%;
+}
+/* blog section css 1368px */
+.heading-2 {
+    padding: 5%;
+}
+
+.heading-2 h1 {
+    font-size: 50px;
+}
+
+.heading-2 p {
+    font-size: 15px;
+    width: 50%;
+}
+
+/* image-2 section css 1368px */
+.image-2 {
+    display: flex;
+    padding: 0% 5%;
+}
+.image1 img {
+    width: 80%;
+}
+
+.image1 {
+    flex-direction: column;
+}
+
+.image1 p {
+    font-size: 10px;
+}
+
+.image1 h4 {
+    width: 90%;
+    font-size: 15px;
+}
+/* .experience-2 section css 1368px */
+.experience-2 {
+    display: flex;
+    width: 100%;
+}
+
+.left-experience {
+    padding: 130px 150px;
+    width: 50%;
+}
+
+.left-experience h2 {
+    font-size: 28px;
+}
+
+.left-experience p {
+    font-size: 13px;
+    width: 105%;
+}
+
+.right-experience {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.right-experience p{
+    font-size: 13px;
+}
+/* .client section css 1368px */
+.client .heading {
+    padding: 10%;
+    width: 80%;
+}
+
+.logos {
+    display: flex;
+    margin-top: -0px;
+    padding: 0% 8%;
+
+}
+.logos img{
+    width: 17%;
+}
+.para {
+    width: 100%;
+    margin: 0%;
+    padding: 0% 5%;
+}
+/* letproject section css 1368px*/
+.letproject {
+    display: flex;
+    padding: 5% 10%;
+    font-family: "Work Sans", sans-serif;
+}
+.vector-button{
+    width: 30%;
+}
+/* bottom-navbar section css 1368px */
+
+.bottom-navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 1% 10%;
+    gap: 20vw;
+}
+
+.right-navbar {
+    display: flex;
+    gap: 1vw;
+    font-size: 15px;
+}
+}
+@media(max-width:1024px) {
+    .button {
+        padding: 8px 16px;
+    }
+
+    /* navbar css 1024px*/
+
+    nav {
+        padding: 1% 5%;
+    }
+
+    ul {
+        font-size: 10px;
+    }
+
+    nav ul li {
+        padding: 8px 5px;
+    }
+
+    nav ul .right-side-menu {
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+    }
+
+    .experience {
+        gap: 1px;
+        width: 100%;
+    }
+
+    .experience .box {
+        padding: 20px 5px;
+        gap: 4px;
+    }
+
+    .experience .box h3 {
+        font-size: 17px;
+    }
+
+    .experience .box p {
+        font-weight: 600;
+        font-size: 9.4px;  
+}
+
+    /* about section css  1024px*/
+    .about {
+        display: flex;
+        gap: 10vw;
+        padding: 5% 18%;
+    }
+
+    .about-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-left img {
+        width: 150%;
+        z-index: 1;
+    }
+
+    .about-left .social-links {
+        width: 80%;
+        padding: 5px 10px;
+        gap: 1vw;
+        margin-top: -23px;
+        z-index: 2;
+        position: relative;
+    }
+
+    .about-left .social-links a img {
+        width: 130%;
+    }
+
+    .about-right {
+        padding: 15% 2%;
+        width: 150%;
+
+    }
+
+    .about-right h3 {
+        font-size: 20px;
+        width: 120%;
+
+    }
+
+    .about-right p {
+        font-size: 10px;
+        padding-top: 20px;
+        width: 120%;
+    }
+
+    .about-right .button {
+        font-size: 10px;
+    }
+
+    /* workprocess section css 1024*/
+    .workprocess {
+        padding: 13%;
+        display: flex;
+        gap: 10vw;
+    }
+
+    .left-work {
+        width: 100%;
+    }
+
+    .left-work h3 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .left-work p {
+        font-size: 10px;
+        width: 100%;
+
+    }
+
+    .right-work {
+        width: 150%;
+    }
+
+    .right-work h4 {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .right-work p {
+        width: 105%;
+        font-size: 10px;
+    }
+
+    .top {
+        display: flex;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .bottom {
+        display: flex;
+        gap: 8px;
+    }
+
+    .research {
+        background-color: rgb(243, 238, 238);
+        border-radius: 15px;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .research img {
+        width: 30%;
+    }
+
+    /* portfolio and image section  css 1024px*/
+    .portfolio {
+        font-family: "Work Sans", sans-serif;
+    }
+
+    .heading {
+        /* display: block; */
+        width: 50%;
+        /* margin: auto; */
+        /* text-align: center; */
+
+    }
+
+    .heading h2 {
+        font-size: 40px
+    }
+
+    .heading p {
+        font-size: 15px;
+        text-shadow: -4px -3px;
+        color: #A5ACB5;
+    }
+
+    .image-top {
+        display: flex;
+        margin: 0px;
+        padding: 0% 9%;
+        width: 100%;
+        gap: vw;
+        justify-content: space-evenly;
+    }
+
+    .image-bottom {
+        display: flex;
+        padding: 0% 9%;
+        width: 100%;
+        margin: 0px;
+        gap: vw;
+        justify-content: space-evenly;
+    }
+
+    .image-1 {
+        width: 100%;
+        /* display: flex; */
+        flex-direction: column;
+        /* align-items: flex-start; */
+        /* gap: 4px; */
+        padding: 15px;
+    }
+
+    .image-1 img {
+        width: 100%;
+    }
+
+    /* .image-1 p,
+    h4,
+    p {
+        padding: 5px;
+    } */
+    .image-1 h4 {
+        font-size: 13px;
+    }
+
+    .image-1 p {
+        font-size: 10px;
+    }
+
+    .arrow-button {
+        display: flex;
+        border: #A53DFF solid;
+        align-items: center;
+        padding: 6px 14px;
+        /* border-radius: 6px; */
+        gap: 8px;
+
+    }
+
+    .arrow-button img {
+        width: 15px;
+    }
+
+    .project-button {
+        padding: 10%;
+    }
+
+    /* project section css 1024px */
+    .project {
+        background: #132238;
+    }
+
+    .project h1 {
+        font-size: 30px;
+        text-align: center;
+        width: 55%;
+        /* margin: auto;
+        display: block;
+        color: #FFFFFF;
+        font-family: "Work Sans", sans-serif;
+        font-weight: 700;
+        font-style: normal; */
+    }
+
+    .project p {
+        width: 55%;
+        /* text-align: center;
+        margin: auto;
+        display: block;
+        font-size: 17px;
+        padding: 20px;
+        color: #A5ACB5;
+        font-family: "Work Sans", sans-serif;
+        font-weight: 700;
+        font-style: normal; */
+    }
+
+    .project .arrow-butto {
+        width: 25%;
+        font-size: 15px;
+        /* background-color: #A53DFF;
+        color: white; */
+    }
+
+    /* .arrow-butto {
+        display: flex;
+        border: #A53DFF solid;
+        align-items: center;
+        padding: 6px 14px;
+        border-radius: 6px;
+        gap: 8px;
+        margin: auto;
+        width: 10%;
+    } */
+    /* blog section css */
+    .heading-2 {
+        padding: 50px;
+        width: 100%;
+    }
+
+    .heading-2 h1 {
+        font-size: 40px;
+    }
+
+    .heading-2 p {
+        font-size: 17px;
+        width: 60%;
+        /* text-align: center;
+        margin: auto;
+        display: block;
+        padding: 20px;
+        text-shadow: -4px -3px; */
+    }
+
+    /* image-2 section css */
+    .image-2 {
+        display: flex;
+        /* justify-content: space-between; */
+        width: 100%;
+        padding: 0% 10%;
+
+    }
+
+
+    .image1 {
+        flex-direction: column;
+    }
+
+    .image1 img {
+        width: 80%;
+    }
+
+    .image1 p {
+        color: #A5ACB5;
+        font-size: 10px;
+    }
+
+    .image1 h4 {
+        width: 70%;
+        font-size: 10px;
+    }
+
+    /* .experience-2 section css 1024px*/
+    .experience-2 {
+        display: flex;
+    }
+
+    .left-experience {
+        padding: 10% 10%;
+        width: 50%;
+    }
+
+    .left-experience h2 {
+        font-size: 30px;
+    }
+
+    .left-experience p {
+        font-size: 10px;
+    }
+    .right-experience {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .right-experience p {
+        font-size: 10px;
+    }
+
+    /* .right-side1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 2rem 3rem;
+        background-color: #e3e7ea;
+        border-radius: 4px;
+    }
+
+/
+
+    /* .client section css */
+    .client .heading {
+        padding: 5%;
+        width: 60%;
+    }
+
+    .logos {
+        display: flex;
+        margin-top: -0px;
+        padding: 0% 5%;
+    }
+
+    .logos img {
+        width: 15%;
+    }
+
+    .para {
+        width: 100%;
+        /* margin: auto; */
+        /* display: block; */
+        padding: 0% 2%;
+        text-align: center;
+        margin-top: -0px;
+    }
+
+    /* letproject section css */
+    .letproject {
+        /* display: flex; */
+        padding: 80px 20px;
+        gap: 10vw;
+    }
+
+    .left-letproject {
+        width: 40%;
+    }
+
+    .left-letproject h1 {
+        font-size: 20px;
+    }
+
+    .left-letproject p {
+        color: #A5ACB5;
+        width: 80%;
+        font-size: 10px;
+
+    }
+
+    .image-address {
+        display: flex;
+        padding: 20px;
+
+    }
+
+    .image-address img {
+        width: 100%;
+    }
+
+    .image-address p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .image-address h6 {
+        font-size: 18px;
+    }
+
+    .links {
+        padding: 20px;
+    }
+
+    .links img {
+        width: 40px;
+    }
+
+    .right-letproject {
+        width: 40%;
+        padding: 10px 10px;
+        font-family: "Work Sans", sans-serif;
+        color: #898d94;
+        gap: 4vw;
+    }
+
+    .right-letproject p {
+        padding: 20px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .input {
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    .right-letproject input {
+        width: 100%;
+        border: none;
+        outline: none;
+        border-bottom: #bdbfc3 2px solid;
+    }
+
+    .subject {
+        display: flex;
+    }
+
+    .vector-button {
+        display: flex;
+        font-size: 10px;
+        border: #A53DFF solid;
+        align-items: center;
+        width: 35%;
+        padding: 6px 14px;
+        border-radius: 6px;
+        gap: 8px;
+        background-color: #A53DFF;
+    }
+
+    .vector-button img {
+        width: 15%;
+    }
+    /* bottom-navbar section css 1024px */
+
+.bottom-navbar {
+    padding: 5px 60px;
+    gap: 17vw;
+}
+
+/* .right-navbar {
+    display: flex;
+    gap: 1vw;
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;
+    color: white;
+} */
+}
+@media(max-width:768px) {
+
+    .button {
+        padding: 8px 20px;
+    }
+
+    /* nav css 768px */
+
+    nav ul {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    nav ul .left-side-menu {
+        width: 40%;
+    }
+
+    nav ul .right-side-menu {
+        width: max-content;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    /* hero section css 768px */
+
+    .hero {
+        /* width: 100%;
+    display: flex; */
+        align-items: center;
+        justify-content: space-between;
+        padding: 15% 5%;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .hero .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 12px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .experience {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .box {
+        padding: 15px 10px;
+        border-radius: 6px;
+    }
+
+
+    .hero .right {
+        width: 70%;
+    }
+
+    /* .about section css 768 */
+    .about {
+        padding: 2% 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-left {
+        width: 50%;
+        text-align: center;
+    }
+
+
+    .about-left .social-links {
+        width: 90%;
+    }
+
+    .about-left .social-links a img {
+        width: 6vw;
+
+    }
+
+    .about-right {
+        padding: 0% 2%;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        align-items: center;
+
+    }
+
+    .about-right h3 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .about-right p {
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .about .button {
+        font-size: 15px;
+    }
+
+    /* .workprocess section css 768 */
+    .workprocess {
+        padding: 10% 2%;
+        flex-direction: column;
+        font-family: "Work Sans", sans-serif;
+    }
+
+    .left-work {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-work h3 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .left-work p {
+        font-size: 15px;
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .right-work{
+        width: 100%;
+    }
+    .right-work h4 {
+        font-size: 20px;
+    }
+
+    .right-work p {
+        width: 75%;
+    }
+
+    .top {
+        padding: 0% 2%;
+        flex-direction: column;
+        gap: 5vw;
+    }
+
+    .bottom {
+        padding: 0% 2%;
+        flex-direction: column;
+        gap: 5vw;
+    }
+
+    .research {
+        width: 100%;
+        text-align: center;
+    }
+
+    .research p {
+        width: 90%;
+        margin: auto;
+        display: block;
+        font-size: 15px;
+    }
+    .research img{
+        width: 20%;
+    }
+    /* .portfolio section css 768 */
+    .heading {
+        width: 100%;
+    }
+    
+    .heading h2 {
+        font-size: 40px
+        
+    }
+    
+    .heading p {
+        text-shadow: 0px 0px;
+        font-size: 15px;
+        width: 95%;
+    }
+
+    .image-top {
+        display: flex;
+        padding: 0% 5%;
+        width: 100%;
+        margin: 0px;
+        flex-direction: column;
+        gap: 6vw;
+    }
+
+    .image-bottom {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 6vw;
+        padding: 0% 5%;
+        margin: 0px;
+    }
+
+    .arrow-button {
+        font-size: 12px;
+        /* margin: auto; */
+    }
+
+    .image-1 {
+        width: 100%;
+    }
+
+    .project-button {
+        padding: 10%;
+    }
+
+    /* .project section css 768 */
+    .project {
+        padding: 5% 2%;
+        width: 100%;
+        /* display: flex;
+        flex-direction: column; */
+        text-align: center;
+    }
+    
+    .project h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+    
+    .project p {
+        font-size: 14px;
+        width: 100%;
+    }
+    
+    .project .arrow-butto {
+        width: 40%;
+        font-size: 10px;
+    }
+    .arrow-butto a{   
+    }
+    .arrow-butto img {
+        width: 10%;
+    }
+
+    /* .blog section css 768 */
+    .blog {
+        width: 100%;
+        padding: 0% 2%;
+        text-align: center;
+    }
+
+    .heading-2 {
+        padding: 0%;
+    }
+
+    .heading-2 h1 {
+        font-size: 50px;
+        width: 100%;
+    }
+
+    .heading-2 p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    /* image-2 section css */
+    .image-2 {
+        padding: 0% 5%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .image-2 img{
+        width: 100%;
+    }
+    .image1,p,h4{
+        display: block;
+        width: 100%;
+        margin: auto;
+        font-size: 15px;
+
+        
+    }
+
+    /* .experience section css 768 */
+    .experience-2 {
+        flex-direction: column;
+    }
+
+    .left-experience {
+        width: 100%;
+        padding: 5% 2%;
+        text-align: center;
+        margin-top: -0px;
+    }
+
+    .left-experience h2 {
+        width: 100%;
+    }
+
+    .left-experience p {
+        width: 100%;
+        font-size: 15px;
+
+    }
+
+    .right-experience {
+        width: 90%;
+        padding: 0% 5%;
+        gap: 5vw;
+    }
+
+    .right-side1,
+    h3,
+    p {
+        width: 105%;
+    }
+
+    /* .client section css  768px*/
+    .client {
+        width: 100%;
+        padding: 10% 2%;
+    }
+
+    .client .heading {
+        font-family: "Work Sans", sans-serif;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .logos {
+        margin-top: -0px;
+    }
+
+    .logos img {
+        width: 17%;
+        padding: 0% 1%;
+
+    }
+
+    .para {
+        width: 95%;
+        padding: 0% 2%;
+        margin-top: -0px;
+    }
+
+    /* .letproject section css 768px */
+    .letproject {
+        padding: 12% 2%;
+        flex-direction: column;
+    }
+
+    .left-letproject {
+        width: 100%;
+    }
+    .image-address{
+        gap: 15vw;
+        justify-content: flex-start;
+        display: flex;
+    }
+    .image-address img{
+        width: 150%;
+    }
+    .left-letproject .image-address p{
+        font-size: 20px;
+    }
+    .image-address h6{
+        font-size: 20px;
+    }
+    .left-letproject h1 {
+        font-size: 25px;
+    }
+
+    .left-letproject p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .right-letproject {
+        width: 100%;
+        padding: 0% 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vector-button {
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        width: 25%;
+        text-align: center;
+        margin: 0%;
+    }
+
+    .vector-button img {
+        width: 13%;
+    }
+
+    /* .bottom-navbar section css 768px */
+    .bottom-navbar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 5%;
+        gap: 3vw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .left-navbar img {
+        width: 80%;
+    }
+
+    .right-navbar {
+        display: flex;
+        gap: 1.vw;
+        font-size: 15px;
+        flex-wrap: wrap;
+}
+}
